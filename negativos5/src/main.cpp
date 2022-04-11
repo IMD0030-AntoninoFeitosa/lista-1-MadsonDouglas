@@ -2,11 +2,22 @@
 using std::cin;
 using std::cout;
 
-const int SIZE = 5; // input size.
+const int SIZE = 5;
 
 int main(void)
 {
-    // TODO: Adicione aqui seu código.
+    int entrada = 0;
+    int contador_negativos = 0;
+    int cont = 0;
+
+    while(cont < SIZE){
+        cin >> entrada;
+        if (entrada < 0) {
+            contador_negativos++;
+        };
+    }
+
+    std::cout << contador_negativos << std::endl;
 
     return 0;
 }
