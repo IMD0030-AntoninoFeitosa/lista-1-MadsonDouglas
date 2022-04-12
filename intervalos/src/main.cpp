@@ -35,7 +35,7 @@ int main(void)
     }
 
     for(int i = 0; i < SIZE; i++) {
-        std::cout << std::setprecision(4) << ((float)intervalos[i]/(float)contador)*100 << std::endl;
+        std::cout << std::setprecision(4) << (static_cast<float>(intervalos[i])/contador)*100 << std::endl;
     }
     
     return 0;
