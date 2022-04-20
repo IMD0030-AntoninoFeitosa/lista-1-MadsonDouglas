@@ -13,8 +13,8 @@
 std::pair<int,int> min_max( int V[], size_t n )
 {
     if(n == 0) {
-        return std::make_pair(-1, -1)
-    };
+        return std::make_pair(-1, -1);
+    }
 
     int menor_valor = V[0]; 
     int maior_valor = V[0]; 
