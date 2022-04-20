@@ -11,10 +11,10 @@ int main(void)
     int cont = 0;
 
     while(cont < SIZE){
-        cin >> entrada;
+        cin >> std::ws >> entrada;
         if (entrada < 0) {
             contador_negativos++;
-        };
+        }
     }
 
    cout << contador_negativos << std::endl;
