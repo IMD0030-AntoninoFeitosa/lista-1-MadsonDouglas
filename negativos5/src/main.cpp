@@ -17,7 +17,7 @@ int main(void)
         };
     }
 
-    std::cout << contador_negativos << std::endl;
+   cout << contador_negativos << std::endl;
 
     return 0;
 }
