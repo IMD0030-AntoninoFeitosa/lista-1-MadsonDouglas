@@ -1,4 +1,3 @@
-#include "function.h"
 #include <iostream>
 #include <array>
 /*! 
